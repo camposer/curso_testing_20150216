@@ -1,0 +1,31 @@
+
+Ir a \\10.111.99.83\java
+
+1.- Descargar e instalar JDK
+2.- Descargar y descomprimir Eclipse
+3.- Abrir Eclipse
+4.- Configurar Maven
+- Abrir Eclipse
+- Ir a Window -> Preferences -> Maven -> User settings
+- Seleccionar el archivo settings.xml (contenido abajo)
+- Clic en Update
+5.- Crear proyecto
+- Ir a File -> New -> Maven -> From Archetype
+- Colocar nombre y seleccionar como arquetipo maven-quickstart
+- Clic derecho sobre el proyecto -> Run -> Maven install
+A este punto no debería dar errores
+
+     <settings>
+      <proxies>
+       <proxy>
+          <id>example-proxy</id>
+          <active>true</active>
+          <protocol>http</protocol>
+          <host>proxy.company.com</host>
+          <port>8080</port>
+          <username>usuario</username>
+          <password>contraseña</password>
+        </proxy>
+      </proxies> 
+    </settings>
+
