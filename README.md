@@ -38,6 +38,7 @@
 			- http://www.seleniumhq.org/projects/webdriver
 			- https://spring.io/blog/2014/03/26/spring-mvc-test-with-webdriver
 			- http://g00glen00b.be/spring-boot-selenium
+			- http://www.qaautomation.net/?p=263
 		- Stress
 			- http://jmeter.apache.org/
 			- http://www.soapui.org/
